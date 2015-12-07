@@ -22,6 +22,17 @@ public class FormDFA extends javax.swing.JFrame {
      */
     public FormDFA() {
         initComponents();
+        inputArea.setText("000101\n"
+                + "a b c\n"
+                + "0 1\n"
+                + "a\n"
+                + "c\n"
+                + "a 0 a\n"
+                + "a 1 b\n"
+                + "b 0 b\n"
+                + "b 1 c\n"
+                + "c 0 c\n"
+                + "c 1 a");
         
     }
 
