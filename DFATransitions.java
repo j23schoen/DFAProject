@@ -14,6 +14,7 @@ public class DFATransitions {
     private String state, nextState;
     private int input;
     
+    //constructor that has 3 parameters to set up the dfa transition table
     public DFATransitions(String state, int input, String nextState){
         this.state = state;
         this.input = input;
