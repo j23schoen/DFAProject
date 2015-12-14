@@ -178,6 +178,7 @@ public class DFA {
         return temp;
     }
 
+    //error checking method that makes sure the input is proper
     public void checkForErrors(String[] input) {
 
         System.out.println("checkForErrors() called");
